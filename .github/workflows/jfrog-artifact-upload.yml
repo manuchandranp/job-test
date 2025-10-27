@@ -9,7 +9,8 @@ on:
       jfrog-url:
         description: URL to JFrog platform
         type: string
-        required: true
+        required: false
+        default: 'https://hts2.jfrog.io'
       jfrog-repository:
         description: JFrog local repository to authenticate and publish
         type: string
