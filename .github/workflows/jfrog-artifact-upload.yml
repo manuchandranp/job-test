@@ -1,6 +1,9 @@
 name: Upload artifact to JFrog Artifactory
 
 on:
+  push:
+    branches:
+      - main
   workflow_call:
     inputs:
       jfrog-url:
